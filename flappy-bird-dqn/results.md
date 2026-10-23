@@ -1,6 +1,6 @@
 # Results - Flappy Bird Reinforcement Learning
 
-## 1. Challenge Results
+## 1.1. Challenge Results
 
 | Metric | Result |
 |---|---:|
@@ -10,6 +10,14 @@
 | Next threshold | 120.0 |
 
 The solution was evaluated by the ETH CodeExpert challenge framework.
+
+## 1.2. Training Reward Curve
+
+The plot shows episode rewards sampled during training
+across three runs. Rewards fluctuate considerably between
+episodes and runs, indicating variability in training.
+
+![Flappy Bird training rewards](flappy_bird_training_rewards.png)
 
 ## 2. Evaluation Across Runs
 
