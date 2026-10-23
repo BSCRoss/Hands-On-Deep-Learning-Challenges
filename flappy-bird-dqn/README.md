@@ -23,3 +23,7 @@ The training function runs for up to 500 episodes by default and logs the episod
 
 The original implementation was designed to run within the ETH CodeExpert challenge environment, which supplies the game environment and invokes the model initialization and training functions.
 
+## Results
+
+See [Results](results.md) for training metrics,
+evaluation scores, and observations.
