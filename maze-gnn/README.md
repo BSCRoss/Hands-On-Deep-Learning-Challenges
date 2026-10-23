@@ -52,3 +52,8 @@ The training code prioritizes 4×4 maze graphs when constructing the training an
 - Combining MLPs, GRU updates, and normalization in a GNN.
 - Designing training loops with validation, learning-rate scheduling, and checkpoint selection.
 - Exploring how message-passing depth affects generalization across graph sizes.
+
+## Results
+
+See [Results](results.md) for the challenge score, 
+validation metrics, and observations.
