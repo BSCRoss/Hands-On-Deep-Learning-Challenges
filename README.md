@@ -1,26 +1,26 @@
 # Hands-On-Deep-Learning-Challenges
 
-Hands-On Deep Learning Challenges — ETH Zürich
+Implementations and experiments from the Hands-On Deep Learning challenges at ETH Zürich.
 
-A collection of selected implementations from the Hands-On Deep Learning course at ETH Zürich. This repository highlights practical work with deep learning, reinforcement learning, and graph neural networks.
-Coursework note: These projects are based on ETH Zürich course challenges. 
+The projects explore reinforcement learning and graph neural networks, with a focus on implementing models, training them, and evaluating their performance.
 
-Projects
-1. Flappy Bird Agent — Deep Reinforcement Learning
-Goal: Train an agent to play Flappy Bird using reinforcement learning.
+## Projects
 
-Approach
-- Implemented a Deep Q-Network (DQN) agent.
-- Trained the agent through interaction with the game and reward-based feedback.
-- Evaluated behavior and learning performance during training.
-Technologies: Python, PyTorch
+### 1. Flappy Bird — Reinforcement Learning
+Implemented a neural-network-based Q-learning agent to play Flappy Bird using PyTorch.
 
+- **Tech:** Python, PyTorch, Gymnasium
+- **Focus:** Q-learning, neural networks, epsilon-greedy exploration
+- [Implementation](flappy-bird-dqn/flappy_bird_dqn.py) · [Results](flappy-bird-dqn/results.md)
 
-2. Maze Solving with Graph Neural Networks
-Goal: Predict which nodes belong to the unique path between two marked endpoints in a maze represented as a graph.
+### 2. Maze Solving — Graph Neural Networks
+Implemented a graph neural network to classify nodes belonging to a maze's solution path.
 
-Approach
-- Implemented a graph neural network (GNN) for node-level binary classification.
-- Used node features to identify the two endpoints and predicted whether each node belongs to the connecting path.
-- Trained only on 4×4 maze graphs, with the challenge evaluating generalization to larger 8×8, 16×16, and 32×32 graphs.
-Technologies: Python, PyTorch, PyTorch Geometric
+- **Tech:** Python, PyTorch, PyTorch Geometric
+- **Focus:** Message passing, GRU-based updates, graph learning
+- [Implementation](maze-gnn/maze_gnn.py) · [Results](maze-gnn/results.md)
+
+## Notes
+
+These projects were developed as part of ETH Zürich coursework. The code may depend on the original challenge environment and its evaluation framework.
+
